@@ -7,9 +7,9 @@ int main(){
    const short maxValue = 6;
 
    srand(time(0));
-   short first = (rand() % (maxValue - minValue + 1)) + minValue;
-   short second = (rand() % (maxValue - minValue + 1)) + minValue;
-   short third = (rand() % (maxValue - minValue + 1)) + minValue;
+ short first  = (rand() % 6) + 1;
+ short second = (rand() % 6) + 1;
+ short third  = (rand() % 6) + 1;
    cout << first << " , " << second << " , " << third << endl;
    return 0;
 }
