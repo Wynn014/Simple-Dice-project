@@ -11,11 +11,5 @@ int main() {
 
     std::cout << "Hello " << name << '\n';
 
-    // Infinite loop warning example:
-    // int x = 1;
-    // while (x == 1) {
-    //     std::cout << "HELP! I'M STUCK IN A LOOP!\n";
-    // }
-
     return 0;
 }
